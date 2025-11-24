@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|c:\\users\\kolia\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\laba6_2new\\laba6_2new\\transportclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|solutionrelative:laba6_2new\\transportclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|c:\\users\\kolia\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\laba6_2new\\laba6_2new\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|solutionrelative:laba6_2new\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|c:\\users\\kolia\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\laba6_2new\\laba6_2new\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|solutionrelative:laba6_2new\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|c:\\users\\kolia\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\laba6_2new\\laba6_2new\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|solutionrelative:laba6_2new\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|c:\\users\\kolia\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\laba6_2new\\laba6_2new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|solutionrelative:laba6_2new\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|c:\\users\\kolia\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\laba6_2new\\laba6_2new\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9103F4A2-D424-4B7C-8FE4-D732243F30FF}|Laba6_2new\\Laba6_2new.csproj|solutionrelative:laba6_2new\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Laba6_2new\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Form1.Designer.cs",
+              "RelativeToolTip": "Laba6_2new\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T16:44:03.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Program.cs",
+              "RelativeDocumentMoniker": "Laba6_2new\\Program.cs",
+              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Program.cs",
+              "RelativeToolTip": "Laba6_2new\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T16:43:53.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Form1.cs",
+              "RelativeDocumentMoniker": "Laba6_2new\\Form1.cs",
+              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Form1.cs",
+              "RelativeToolTip": "Laba6_2new\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T16:43:42.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransportClasses.cs",
+              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\TransportClasses.cs",
+              "RelativeDocumentMoniker": "Laba6_2new\\TransportClasses.cs",
+              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\TransportClasses.cs",
+              "RelativeToolTip": "Laba6_2new\\TransportClasses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T16:43:15.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Interfaces.cs",
+              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Interfaces.cs",
+              "RelativeDocumentMoniker": "Laba6_2new\\Interfaces.cs",
+              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Interfaces.cs",
+              "RelativeToolTip": "Laba6_2new\\Interfaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T16:42:44.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Form1.cs",
+              "RelativeDocumentMoniker": "Laba6_2new\\Form1.cs",
+              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba6\\Laba6_2new\\Laba6_2new\\Form1.cs [Design]",
+              "RelativeToolTip": "Laba6_2new\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T16:42:15.076Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

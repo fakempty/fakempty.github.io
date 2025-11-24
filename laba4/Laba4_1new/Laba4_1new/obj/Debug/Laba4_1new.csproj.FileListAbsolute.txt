@@ -1,0 +1,10 @@
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\obj\Debug\Laba4_1new.csproj.AssemblyReference.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\obj\Debug\Laba4_1new.Properties.Resources.resources
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\obj\Debug\Laba4_1new.csproj.GenerateResource.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\obj\Debug\Laba4_1new.csproj.CoreCompileInputs.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\bin\Debug\Laba4_1new.exe.config
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\bin\Debug\Laba4_1new.exe
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\bin\Debug\Laba4_1new.pdb
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\obj\Debug\Laba4_1new.exe
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\obj\Debug\Laba4_1new.pdb
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba4\Laba4_1new\Laba4_1new\obj\Debug\Laba4_1new.exe.config

@@ -1,3 +1,0 @@
-Ussцuri Tiger;5;12345;Ukraine;Kyivska;Kyivskyi;Kyiv;Shevchenka;10;5;20;15
-Lion;3;54321;Ukraine;Lvivska;Lvivskyi;Lviv;Franka;7;10;12
-Tiger;2;67890;Ukraine;Odeska;Odeskyi;Odessa;Pushkina;8;3;7;5

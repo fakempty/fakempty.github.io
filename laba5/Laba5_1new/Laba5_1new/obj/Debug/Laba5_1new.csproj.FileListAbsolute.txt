@@ -1,0 +1,9 @@
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\obj\Debug\Laba5_1new.csproj.AssemblyReference.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\obj\Debug\Laba5_1new.Properties.Resources.resources
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\obj\Debug\Laba5_1new.csproj.GenerateResource.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\obj\Debug\Laba5_1new.csproj.CoreCompileInputs.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\bin\Debug\Laba5_1new.exe.config
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\bin\Debug\Laba5_1new.exe
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\bin\Debug\Laba5_1new.pdb
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\obj\Debug\Laba5_1new.exe
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba5\Laba5_1new\Laba5_1new\obj\Debug\Laba5_1new.pdb
