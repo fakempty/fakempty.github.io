@@ -2,9 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-# ===========================
-# КЛАСИ
-# ===========================
 class PhotoCamera:
     def __init__(self, model="", zoom=1, material="plastic"):
         self.model = model
@@ -52,15 +49,11 @@ class Camera(PhotoCamera):
         return f"[Камера]\nМодель: {self.model}\nТип: {self.cam_type}\nZoom: {self.zoom}\nMP: {self.megapixels}\nВартість: {self.cost()}$"
 
 
-# ===========================
-# GUI
-# ===========================
 root = tk.Tk()
 root.title("ЛР 5 — Фотоапарати (OOP)")
 root.geometry("600x500")
 
 
-# Поля введення
 entries = {}
 
 labels = [
@@ -79,7 +72,6 @@ for i, text in enumerate(labels):
     ent.grid(row=i, column=1, pady=5)
     entries[text] = ent
 
-# Об’єкти
 obj1 = obj2 = obj3 = None
 
 
@@ -132,7 +124,6 @@ def update_models():
     messagebox.showinfo("OK", "Моделі оновлено! (MP +2 і +20)")
 
 
-# Кнопки
 btn1 = tk.Button(root, text="Створити об'єкти", width=20, font=("Arial", 12), command=create_objects)
 btn1.grid(row=6, column=0, pady=10)
 
@@ -143,7 +134,6 @@ btn3 = tk.Button(root, text="Оновити моделі", width=20, font=("Aria
 btn3.grid(row=7, column=0, pady=10)
 
 
-# Вікно виводу
 output = tk.Text(root, width=60, height=10, font=("Arial", 11))
 output.grid(row=8, column=0, columnspan=3, pady=20)
 

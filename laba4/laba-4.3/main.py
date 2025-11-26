@@ -3,12 +3,10 @@ from tkinter import messagebox
 from tkinter import filedialog
 import os
 
-# --- Файли ---
 INPUT_FILE = "InputData.txt"
 OUTPUT_FILE = "OutputData.txt"
 SESSION_LOG = "SessionLog.txt"
 
-# --- Очищуємо session log на старті ---
 with open(SESSION_LOG, "w", encoding="utf-8") as f:
     f.write("Дія 1: додаток запущено\n")
 
@@ -18,7 +16,6 @@ num2 = None
 operation = None
 action_counter = 1
 
-# --- Функції ---
 def log_action(text):
     global action_counter
     with open(SESSION_LOG, "a", encoding="utf-8") as f:
@@ -85,7 +82,6 @@ def export_result():
         if labelResult.cget("text") == "":
             messagebox.showerror("Помилка", "Немає результату для експорту")
             return
-        # Відкриваємо файл у режимі додавання ("a")
         with open(OUTPUT_FILE, "a", encoding="utf-8") as f:
             f.write(f"{num1} {operation} {num2}, Результат: {labelResult.cget('text').split(': ')[1]}\n")
         log_action("обрано «Експортувати результат у файл»")

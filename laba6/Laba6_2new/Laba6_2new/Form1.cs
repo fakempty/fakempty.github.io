@@ -6,17 +6,14 @@ namespace Laba6_2new
 {
     public partial class Form1 : Form
     {
-        // Об'єкти (зберігаємо посилання через інтерфейс або базовий тип Object, 
-        // але для простоти тут використаємо конкретні типи)
+
         private Helicopter myHelicopter;
         private Plane myPlane;
 
-        // Прапорець, щоб знати, з ким працюємо зараз
         private bool isHelicopterMode = true;
 
-        // Елементи GUI
         private RadioButton rbHelicopter, rbPlane;
-        private TextBox txtModel, txtSpecParam, txtFrom, txtTo; // SpecParam = гвинти або двигуни
+        private TextBox txtModel, txtSpecParam, txtFrom, txtTo;
         private Label lblSpecParam;
         private Label lblResult;
         private Button btnCreate, btnFly, btnLand, btnRoute, btnUnique1, btnUnique2;
@@ -34,7 +31,6 @@ namespace Laba6_2new
         {
             int x = 20; int y = 20;
 
-            // 1. Вибір типу транспорту
             Label lblType = new Label { Text = "Оберіть транспорт:", Location = new Point(x, y), AutoSize = true };
             this.Controls.Add(lblType);
 
@@ -49,7 +45,7 @@ namespace Laba6_2new
 
             y += 40;
 
-            // 2. Поля введення
+
             this.Controls.Add(new Label { Text = "Модель:", Location = new Point(x, y), AutoSize = true });
             txtModel = new TextBox { Location = new Point(x + 100, y), Width = 150, Text = "Mi-8" };
             this.Controls.Add(txtModel);
@@ -61,7 +57,6 @@ namespace Laba6_2new
             this.Controls.Add(txtSpecParam);
 
             y += 40;
-            // Маршрут
             this.Controls.Add(new Label { Text = "Звідки:", Location = new Point(x, y) });
             txtFrom = new TextBox { Location = new Point(x + 60, y), Width = 100, Text = "Київ" };
             this.Controls.Add(txtFrom);
@@ -71,13 +66,11 @@ namespace Laba6_2new
             this.Controls.Add(txtTo);
 
             y += 40;
-            // 3. Кнопка створення
             btnCreate = new Button { Text = "Створити об'єкт", Location = new Point(x, y), Size = new Size(330, 40), BackColor = Color.LightGreen };
             btnCreate.Click += BtnCreate_Click;
             this.Controls.Add(btnCreate);
 
             y += 60;
-            // 4. Кнопки дій (Інтерфейси)
             this.Controls.Add(new Label { Text = "Методи інтерфейсів:", Location = new Point(x, y), Font = new Font(DefaultFont, FontStyle.Bold) });
             y += 25;
 
@@ -94,7 +87,6 @@ namespace Laba6_2new
             this.Controls.Add(btnRoute);
 
             y += 50;
-            // 5. Унікальні кнопки
             this.Controls.Add(new Label { Text = "Унікальні методи класу:", Location = new Point(x, y), Font = new Font(DefaultFont, FontStyle.Bold) });
             y += 25;
 
@@ -106,12 +98,10 @@ namespace Laba6_2new
             this.Controls.Add(btnUnique2);
 
             y += 50;
-            // 6. Результат
             lblResult = new Label { Location = new Point(x, y), Size = new Size(500, 100), BorderStyle = BorderStyle.FixedSingle, Text = "Результат буде тут..." };
             this.Controls.Add(lblResult);
         }
 
-        // Перемикання радіо-кнопок
         private void ModeChanged(object sender, EventArgs e)
         {
             isHelicopterMode = rbHelicopter.Checked;
@@ -131,7 +121,6 @@ namespace Laba6_2new
             }
         }
 
-        // Створення об'єкта
         private void BtnCreate_Click(object sender, EventArgs e)
         {
             try
@@ -141,10 +130,9 @@ namespace Laba6_2new
                     myHelicopter = new Helicopter();
                     myHelicopter.Model = txtModel.Text;
                     myHelicopter.RotorCount = int.Parse(txtSpecParam.Text);
-                    // Задаємо маршрут відразу при створенні для тесту
                     myHelicopter.SetRoute(txtFrom.Text, txtTo.Text);
 
-                    myPlane = null; // Очищуємо інший об'єкт
+                    myPlane = null;
                     lblResult.Text = $"Створено ВЕРТОЛІТ: {myHelicopter.Model}";
                 }
                 else
@@ -164,7 +152,6 @@ namespace Laba6_2new
             }
         }
 
-        // Виконання методів інтерфейсів (Спільні для обох)
         private void BtnInterfaceAction_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
@@ -190,7 +177,6 @@ namespace Laba6_2new
             lblResult.Text = result;
         }
 
-        // Виконання унікальних методів
         private void BtnUnique_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;

@@ -8,23 +8,21 @@ namespace ZooLab
 {
     public partial class Form1 : Form
     {
-        // Елементи управління (створюємо їх кодом, щоб ви могли просто скопіювати цей файл)
+        // Елементи управління 
         private DataGridView dataGridView1;
         private Button btnLoad;
         private Button btnProcess;
         private Label lblStatus;
 
-        // Шляхи до файлів (можна змінити на діалогові вікна, але для лаби часто роблять фіксовані)
-        // Файли будуть шукатися поруч із .exe файлом (папка bin/Debug)
+
         private string inputFilePath = "Input_Data.txt";
         private string outputFilePath = "Output_Data.txt";
 
-        // Двовимірний масив для зберігання даних (згідно умови завдання)
+
         private string[,] zooData;
 
         public Form1()
         {
-            // Налаштування форми
             this.Text = "Лабораторна №4: Зоопарк";
             this.Size = new Size(900, 500);
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -32,7 +30,6 @@ namespace ZooLab
             InitializeCustomComponents();
         }
 
-        // Метод для створення інтерфейсу
         private void InitializeCustomComponents()
         {
             // 1. Кнопка завантаження
@@ -69,7 +66,6 @@ namespace ZooLab
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             this.Controls.Add(dataGridView1);
 
-            // Налаштування колонок таблиці
             string[] headers = { "Тварина", "Кількість", "Індекс", "Країна", "Область", "Район", "Місто", "Вулиця", "Буд.", "Кв.", "Всього тварин", "Працівників" };
             foreach (var header in headers)
             {
@@ -77,21 +73,17 @@ namespace ZooLab
             }
         }
 
-        // ПОДІЯ: Натискання кнопки "Зчитати файл"
         private void BtnLoad_Click(object sender, EventArgs e)
         {
             try
             {
-                // Отримуємо повний шлях, де програма шукає файл зараз
                 string fullPath = Path.GetFullPath(inputFilePath);
 
                 if (!File.Exists(inputFilePath))
                 {
-                    // Показуємо користувачу, де саме програма очікує знайти файл
                     MessageBox.Show($"Файл не знайдено!\n\nПрограма шукає його тут:\n{fullPath}\n\nБудь ласка, створіть файл за цим шляхом.",
                                     "Помилка шляху", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                    // Копіюємо шлях в буфер обміну, щоб ви могли його вставити в провідник
                     Clipboard.SetText(Path.GetDirectoryName(fullPath));
                     return;
                 }
@@ -101,7 +93,6 @@ namespace ZooLab
 
                 if (lines.Length == 0) return;
 
-                // ... далі той самий код, що був раніше ...
                 int rows = lines.Length;
                 int cols = lines[0].Split(';').Length;
 
@@ -128,7 +119,7 @@ namespace ZooLab
             }
         }
 
-        // ПОДІЯ: Натискання кнопки "Обробити та записати"
+
         private void BtnProcess_Click(object sender, EventArgs e)
         {
             if (zooData == null || zooData.GetLength(0) == 0)
@@ -145,27 +136,22 @@ namespace ZooLab
                 int rows = zooData.GetLength(0);
 
                 // Проходимо по масиву і шукаємо тигрів
-                // Припускаємо, що назва тварини у 0-й колонці (згідно Input Data)
                 for (int i = 0; i < rows; i++)
                 {
                     string animalName = zooData[i, 0].ToLower();
 
-                    // Логіка пошуку: шукаємо "уссурійський тигр"
                     if (animalName.Contains("уссурійський тигр") || animalName.Contains("тигр уссурійський"))
                     {
                         foundCount++;
-                        // Формуємо рядок для запису (можна змінити формат за бажанням)
                         string line = "";
                         for (int j = 0; j < zooData.GetLength(1); j++)
                         {
                             line += zooData[i, j] + ";";
                         }
-                        // Видаляємо останню крапку з комою і додаємо новий рядок
                         resultBuilder.AppendLine(line.TrimEnd(';'));
                     }
                 }
 
-                // Запис у файл
                 File.WriteAllText(outputFilePath, resultBuilder.ToString(), Encoding.UTF8);
 
                 lblStatus.Text = $"Знайдено та записано: {foundCount}";

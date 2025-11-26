@@ -4,8 +4,8 @@ from tkinter import scrolledtext
 
 # --- Функція обробки ---
 def process_text():
-    vowels = "AEIOUYaeiouy"  # англійські голосні
-    input_text = input_box.get("1.0", tk.END)  # Беремо текст з першого Text
+    vowels = "AEIOUYaeiouy"  
+    input_text = input_box.get("1.0", tk.END)  
     words_starting_with_vowel = []
 
     # Обробка рядків
@@ -29,9 +29,9 @@ def process_text():
 root = tk.Tk()
 root.title("Слова, що починаються з голосної")
 
-# Підказка
+
 tk.Label(root, text="Введіть текст:").pack()
-# Текстове поле для введення
+
 input_box = scrolledtext.ScrolledText(root, width=60, height=10)
 input_box.pack(padx=10, pady=5)
 
@@ -39,7 +39,6 @@ input_box.pack(padx=10, pady=5)
 btn = tk.Button(root, text="Знайти слова на голосну", command=process_text)
 btn.pack(pady=5)
 
-# Підказка для результату
 tk.Label(root, text="Слова, що починаються з голосної:").pack()
 # Текстове поле для результату
 output_box = scrolledtext.ScrolledText(root, width=60, height=10)

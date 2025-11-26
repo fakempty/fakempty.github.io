@@ -2,11 +2,9 @@
 
 namespace Laba5_1new
 {
-    // Клас, що описує Ферму
     public class Farm
     {
-        // --- 1. ПРИВАТНІ ПОЛЯ (не менше 7) ---
-        // Вони недоступні ззовні класу (Інкапсуляція)
+
         private string _farmName;       // Назва ферми
         private string _ownerName;      // Власник
         private double _areaHa;         // Площа в гектарах
@@ -15,10 +13,8 @@ namespace Laba5_1new
         private int _workerCount;       // Кількість працівників
         private double _budget;         // Бюджет (грн)
 
-        // --- 2. КОНСТРУКТОР БЕЗ ПАРАМЕТРІВ ---
         public Farm()
         {
-            // Ініціалізація значень за замовчуванням
             _farmName = "Невідома ферма";
             _ownerName = "Невідомий";
             _areaHa = 0;
@@ -28,8 +24,6 @@ namespace Laba5_1new
             _budget = 0;
         }
 
-        // --- 3. ВЛАСТИВОСТІ (Properties) ---
-        // Забезпечують доступ до приватних полів (get/set)
         public string FarmName
         {
             get { return _farmName; }
@@ -47,7 +41,7 @@ namespace Laba5_1new
             get { return _areaHa; }
             set
             {
-                if (value < 0) _areaHa = 0; // Перевірка на коректність
+                if (value < 0) _areaHa = 0;
                 else _areaHa = value;
             }
         }
@@ -76,29 +70,23 @@ namespace Laba5_1new
             set { _budget = value; }
         }
 
-        // --- 4. МЕТОДИ КЛАСУ (не менше 3-х) ---
-
-        // Метод 1: Підрахунок загальної кількості тварин
         public int CalculateTotalAnimals()
         {
             return _cowCount + _sheepCount;
         }
 
-        // Метод 2: Розрахунок навантаження на одного працівника (тварин на людину)
         public double CalculateAnimalsPerWorker()
         {
             if (_workerCount == 0) return 0;
             return (double)CalculateTotalAnimals() / _workerCount;
         }
 
-        // Метод 3: Прогноз податку на землю (наприклад, 1500 грн за гектар)
         public double CalculateLandTax()
         {
             double taxRatePerHa = 1500.0;
             return _areaHa * taxRatePerHa;
         }
 
-        // Додатковий метод для формування рядка інформації (для запису у файл)
         public string GetInfoString()
         {
             return $"Ферма: {_farmName}\n" +

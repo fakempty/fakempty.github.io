@@ -2,9 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from abc import ABC, abstractmethod
 
-# ============================
-# Абстрактний клас Plant
-# ============================
+
 class Plant(ABC):
     def __init__(self, name, family, is_red_book):
         self.name = name
@@ -23,9 +21,6 @@ class Plant(ABC):
         pass
 
 
-# ============================
-# Клас Tree
-# ============================
 class Tree(Plant):
     def __init__(self, name, family, is_red_book, height):
         super().__init__(name, family, is_red_book)
@@ -41,9 +36,7 @@ class Tree(Plant):
         return f"Дерево {self.name} росте..."
 
 
-# ============================
-# Клас Flower
-# ============================
+
 class Flower(Plant):
     def __init__(self, name, family, is_red_book, color):
         super().__init__(name, family, is_red_book)
@@ -58,10 +51,6 @@ class Flower(Plant):
     def smell(self):
         return f"Квіти {self.name} мають приємний аромат."
 
-
-# ============================
-# GUI
-# ============================
 class App:
     def __init__(self, root):
         self.root = root
@@ -70,7 +59,6 @@ class App:
 
         self.plants = []
 
-        # ---------- Вхідні поля ----------
         frm = tk.Frame(root)
         frm.pack(pady=10)
 
@@ -103,9 +91,7 @@ class App:
         self.text = tk.Text(root, width=80, height=15)
         self.text.pack(pady=10)
 
-    # --------------------------
-    # Додати рослину
-    # --------------------------
+
     def add_plant(self):
         name = self.name_var.get().strip()
         family = self.family_var.get().strip()
@@ -134,16 +120,12 @@ class App:
         messagebox.showinfo("Успіх", "Рослину додано!")
         self.clear_inputs()
 
-    # --------------------------
     def clear_inputs(self):
         self.name_var.delete(0, tk.END)
         self.family_var.delete(0, tk.END)
         self.red_var.delete(0, tk.END)
         self.extra_var.delete(0, tk.END)
 
-    # --------------------------
-    # Показати всі рослини
-    # --------------------------
     def show_all(self):
         self.text.delete(1.0, tk.END)
         if not self.plants:
@@ -156,9 +138,6 @@ class App:
             self.text.insert(tk.END, p.info() + "\n")
             self.text.insert(tk.END, p.characteristic() + "\n\n")
 
-    # --------------------------
-    # Показати рослини Червоної книги
-    # --------------------------
     def show_red_book(self):
         self.text.delete(1.0, tk.END)
         red = [p for p in self.plants if p.is_red_book]
@@ -171,9 +150,6 @@ class App:
             self.text.insert(tk.END, f"- {p.name} ({p.type_name()})\n")
 
 
-# ============================
-# Запуск програми
-# ============================
 if __name__ == "__main__":
     root = tk.Tk()
     app = App(root)
