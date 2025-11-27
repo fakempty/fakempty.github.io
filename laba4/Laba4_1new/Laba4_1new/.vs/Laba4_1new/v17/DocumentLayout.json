@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\bin\\Debug\\Output_Data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\Output_Data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\Input_Data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Input_Data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Output_Data.txt",
+              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\bin\\Debug\\Output_Data.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\Output_Data.txt",
+              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\bin\\Debug\\Output_Data.txt",
+              "RelativeToolTip": "bin\\Debug\\Output_Data.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-26T10:16:17.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Input_Data.txt",
+              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\Input_Data.txt",
+              "RelativeDocumentMoniker": "Input_Data.txt",
+              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\Input_Data.txt",
+              "RelativeToolTip": "Input_Data.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-26T10:16:01.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba4\\Laba4_1new\\Laba4_1new\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -47,8 +81,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T09:43:59.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T09:43:59.418Z"
             }
           ]
         }

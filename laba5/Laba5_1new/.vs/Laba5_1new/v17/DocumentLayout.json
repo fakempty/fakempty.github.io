@@ -13,14 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Laba5_1new\\Farm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Laba5_1new\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\laba5_1new\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:laba5_1new\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,23 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Laba5_1new\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Form1.Designer.cs",
-              "RelativeToolTip": "Laba5_1new\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T16:38:52.055Z"
             },
             {
               "$type": "Document",
@@ -56,7 +36,7 @@
               "RelativeDocumentMoniker": "Laba5_1new\\Form1.cs",
               "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Form1.cs",
               "RelativeToolTip": "Laba5_1new\\Form1.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T16:37:35.023Z",
               "EditorCaption": ""
@@ -69,7 +49,7 @@
               "RelativeDocumentMoniker": "Laba5_1new\\Program.cs",
               "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Program.cs",
               "RelativeToolTip": "Laba5_1new\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T16:37:20.731Z",
               "EditorCaption": ""
@@ -82,21 +62,10 @@
               "RelativeDocumentMoniker": "Laba5_1new\\Farm.cs",
               "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Farm.cs",
               "RelativeToolTip": "Laba5_1new\\Farm.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T16:29:33.332Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Form1.cs",
-              "RelativeDocumentMoniker": "Laba5_1new\\Form1.cs",
-              "ToolTip": "C:\\Users\\kolia\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\123\\fakempty.github.io\\laba5\\Laba5_1new\\Laba5_1new\\Form1.cs [Design]",
-              "RelativeToolTip": "Laba5_1new\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T16:28:51.852Z"
             }
           ]
         }

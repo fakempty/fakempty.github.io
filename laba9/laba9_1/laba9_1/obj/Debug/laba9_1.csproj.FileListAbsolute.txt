@@ -1,0 +1,9 @@
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\bin\Debug\laba9_1.exe.config
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\bin\Debug\laba9_1.exe
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\bin\Debug\laba9_1.pdb
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\obj\Debug\laba9_1.csproj.AssemblyReference.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\obj\Debug\laba9_1.Properties.Resources.resources
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\obj\Debug\laba9_1.csproj.GenerateResource.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\obj\Debug\laba9_1.csproj.CoreCompileInputs.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\obj\Debug\laba9_1.exe
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba9\laba9_1\laba9_1\obj\Debug\laba9_1.pdb

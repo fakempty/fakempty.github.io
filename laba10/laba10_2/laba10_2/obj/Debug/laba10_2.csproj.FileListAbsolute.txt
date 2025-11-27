@@ -1,0 +1,9 @@
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\bin\Debug\laba10_2.exe.config
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\bin\Debug\laba10_2.exe
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\bin\Debug\laba10_2.pdb
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\obj\Debug\laba10_2.csproj.AssemblyReference.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\obj\Debug\laba10_2.Properties.Resources.resources
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\obj\Debug\laba10_2.csproj.GenerateResource.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\obj\Debug\laba10_2.csproj.CoreCompileInputs.cache
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\obj\Debug\laba10_2.exe
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba10\laba10_2\laba10_2\obj\Debug\laba10_2.pdb
