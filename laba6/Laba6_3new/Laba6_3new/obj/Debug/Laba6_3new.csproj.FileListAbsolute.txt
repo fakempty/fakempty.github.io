@@ -7,3 +7,4 @@ C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_3n
 C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_3new\Laba6_3new\bin\Debug\Laba6_3new.pdb
 C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_3new\Laba6_3new\obj\Debug\Laba6_3new.exe
 C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_3new\Laba6_3new\obj\Debug\Laba6_3new.pdb
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_3new\Laba6_3new\obj\Debug\Laba6_3new.exe.config

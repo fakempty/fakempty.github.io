@@ -7,3 +7,4 @@ C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_2n
 C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_2new\Laba6_2new\obj\Debug\Laba6_2new.csproj.CoreCompileInputs.cache
 C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_2new\Laba6_2new\obj\Debug\Laba6_2new.exe
 C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_2new\Laba6_2new\obj\Debug\Laba6_2new.pdb
+C:\Users\kolia\OneDrive\Документы\123\fakempty.github.io\laba6\Laba6_2new\Laba6_2new\obj\Debug\Laba6_2new.exe.config
